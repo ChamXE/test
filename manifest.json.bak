@@ -8,7 +8,7 @@
     "icons": {
         "48": "icon/48_book.png"
     },
-    // nvm later see i u se background because i see the second extension example eh wtf why find no ki HMMMMMMMM
+    
     "browser_action": {
         "default_icon": "icon/32_book.png",
         "default_title": "ReadingModeEnabler"       
