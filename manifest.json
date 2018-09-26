@@ -1,0 +1,28 @@
+{
+    
+    "manifest_version": 2,
+    "name": "ReadingModeEnabler",
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+            "id": "readingmodeenabler@chamxe.com"
+        }
+    },
+    "description": "A tool that enables reading mode",
+    "icons": {
+        "48": "icon/48_book.png"
+    },
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webNavigation",
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "icon/32_book.png",
+        "default_title": "ReadingModeEnabler"       
+    },
+    "background": {
+        "scripts": ["urlInsert.js"]
+    }
+}

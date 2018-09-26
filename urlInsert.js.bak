@@ -1,0 +1,11 @@
+'use strict';
+
+function addUrl() {
+    var url = window.location.href,
+        param = "about:reader?url=",
+        newUrl = param + url;
+    
+    window.location.href = newUrl;    
+}
+
+browser.browserAction.onClicked.addListener(addUrl);
